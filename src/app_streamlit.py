@@ -8,9 +8,9 @@ from src.preprocessing import preprocesar_emg
 from src.feature_extraction import window_signal, extract_features
 from src.classifier import ClasificadorEMG
 
-st.set_page_config(page_title="EMG NinaPro – Clasificador 5 movimientos", layout="wide")
+st.set_page_config(page_title="EMG NinaPro Clasificador 5 movimientos", layout="wide")
 
-st.title("Clasificación sEMG – 5 movimientos (NinaPro)")
+st.title("Clasificación sEMG 5 movimientos (NinaPro)")
 st.markdown("""
 **Movimientos:** flexión, extensión, desviación ulnar, desviación radial, puño  
 **Flujos:** Offline (por lote) y Tiempo real (simulado desde archivo)
